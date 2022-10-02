@@ -11,7 +11,7 @@ jobs:
       uses: action/checkout@v2
       
       name: Run Super-Linter
-      uses: github/super-inter@v3
+      uses: github/super-Linter@v3
       env:
         DEFAULT_BRANCH: main
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}} 
